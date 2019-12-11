@@ -13,27 +13,26 @@
 </head>
     
 <body>
-    
     <div id="menu">
         <div class="opcao animate" id="menu1">
-            <div class="texto-menu">&nbsp;HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="texto-menu" onclick="menu()">&nbsp;<a href="#bg">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
             <div class="img-menu" href=""><img src="assets/ico1.png" class="ico"></div>
         </div>
         <div class="opcao animate" id="menu2">
-            <div class="texto-menu">&nbsp;USUÁRIOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="texto-menu">&nbsp;<a href="#login">USUÁRIOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
             <div class="img-menu" onclick="scroll()"><img src="assets/ico2.png" class="ico"></div>
         </div>
         <div class="opcao animate" id="menu3">
-            <div class="texto-menu">&nbsp;PROJETO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="texto-menu">&nbsp;<a href="#vid">PROJETO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
             <div class="img-menu"><img src="assets/ico3.png" class="ico"></div>
         </div>
         <div class="opcao animate" id="menu4">
-            <div class="texto-menu">&nbsp;CONTATO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="texto-menu">&nbsp;<a href="#contato">CONTATO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
             <div class="img-menu"><img src="assets/ico5.png" class="ico"></div>
         </div>
     </div>
     <div class="wrapper" id="wrapper">
-    <div id="bg" class="">
+    <div id="bg">
         <img src="assets/africa.jpg">
     </div>
     <div class="users " id="users">
@@ -86,25 +85,23 @@
 
         </div>
     </div>
-    <div class="teste second" id="login img9">
-        <div class="login">
-            <img src="assets/login.jpg">
+    <div class="teste">
+        <div class="login" id="login">
+            <img src="assets/login.jpg" >
         </div>
     </div>
     </div>
+    <div class="afri">
+        <img src="assets/africa.jpg">
+    </div>
+    <div id="video">
+            <iframe id="vid" frameborder="0" src="https://www.youtube.com/embed/EjJyomfzcc8?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=1&amp;rel=0&amp;fs=1&amp;playsinline=0&amp;autohide=2&amp;theme=dark&amp;color=red&amp;controls=0&amp;" title="YouTube player" allow="autoplay; encrypted-media" allowfullscreen="" data-no-lazy="1" data-skipgform_ajax_framebjll=""></iframe>
+    </div>
+    <div class="aust">
+        <img src="assets/africa.jpg">
+        </div>  
 </body>
 
-<script src="js/scripts/jquery.easing.1.3.js"></script>
 <script src="js/index.js"></script>
-<script type="text/javascript">
-    $(function() {
-        $('#menu1').bind('click',function(event){
-            var $anchor = $(this);
-            
-            $('html, body').stop().animate({left: '400px',
-            }, 1000);
-            event.preventDefault();
-        });
-    });
-</script>      
+
 </html>
