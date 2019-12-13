@@ -3,14 +3,18 @@ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    outline: 0;
 }
 
 @font-face {
     font-family: 'neue-alta-grotesk';
     src: url("../assets/fonts/NeueAlteGrotesk/NeueAlteGrotesk-Bold.ttf");
 }
+form {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 
+}
 img,
 img::after,
 img::before {
@@ -192,9 +196,15 @@ a {
     font-size: 15px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
+
+
 .buttons {
     margin-top: 20px;
     margin-bottom: -10px;
+}
+.buttons-contato{ 
+    margin-top: -12px;
+    margin-bottom: 10px;
 }
 .login-btn {
     background-color: #bad341;
@@ -216,7 +226,6 @@ a {
     height: 30px;
     padding: 5px;
 }
-
 .form-icon {
     color: white;
     margin-top: -33px;
@@ -303,6 +312,96 @@ a {
     border-radius: 50%;
     padding: 10px;
 }
+
+.contato-form {
+    position: absolute;
+    margin-left: 480em;
+    margin-top: 250px;
+    display: flex;
+
+}
+
+
+.contato-form form {
+    display: flex;
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+    border-left: 2px solid #72acd8;
+    border-right: 2px solid #72acd8;
+    border-bottom: 2px solid  #72acd8;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 700px;
+
+}
+.contato-form input {
+    background: none;
+    border: 1.5px solid #72acd8;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 280px;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+    
+.contato-form input::placeholder {
+    background: none;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 280px;
+    margin-top: 30px;
+    padding: 15px;
+}
+.contato-form input:focus{
+    outline: 0;
+}
+
+.contato-form input#message-input{
+    height: 130px;
+}
+.contato-form #message-label{ 
+margin-top: -100px;
+margin-right: 180px;
+color: white;
+font-size: 15px;
+}
+.contato-form .button-bottom-contato {
+    margin-top: 70px;
+
+}
+.contato-form .button-bottom-contato button {
+    background-color: #bad341;
+    border: none;
+    width: 300px;
+    border-radius: 25px;
+    height: 50px;
+    color: white;
+
+}
+
+.form-contato-btn {
+    background-color: #bad341;
+    border: none;
+    margin-top: 40px;
+    width: 200px;
+    border-radius: 25px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+}
+
+.contato-form .logo-radar-contato img {
+    width: 220px;
+    position: absolute;
+    margin-top: -85px;
+    margin-left: -100px;
+}
+
 .img-menu {
     width: 60px;
     height: 60px;
@@ -316,7 +415,7 @@ a {
     border-bottom-left-radius: 30px;
 }
 
-.afri img {
+.aust img {
     height: 100%;
     width: auto;
     max-width: 100%;
@@ -327,7 +426,7 @@ a {
     margin-left: 350em;
 }
 
-.aust img {
+.afri img {
     height: 100%;
     width: auto;
     max-width: 100%;
@@ -360,6 +459,10 @@ a {
 
 }
 
+
+
+
+
 .texto-menu {
     min-width: 50px;
     height: 50px;
@@ -391,7 +494,7 @@ a {
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 320px;
 }
 
@@ -414,10 +517,12 @@ a {
 }
 
 .user2 img {
+    display: flex;
     align-items: center;
     text-align: center;
     padding: 20px;
     justify-content: center;
+    height: 90px;
 }
 
 .user3 {
@@ -490,4 +595,22 @@ a {
     color: white;
     font-family: "neue-alta-grotesk";
     width: 120px;
+}
+/* Animações Das Imagens */
+
+.user1 img:hover{
+    transform: translateY(-20px);
+    transition: all 0.5s;
+}
+.user2 img:hover{
+    transform: translateY(-20px);
+    transition: all 0.5s;
+}
+.user3 img:hover{
+    transform: translateY(-20px);
+    transition: all 0.5s;
+}
+.user4 img:hover{
+    transform: translateY(-20px);
+    transition: all 0.5s;
 }
