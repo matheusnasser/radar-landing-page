@@ -11,10 +11,12 @@ body {
     font-family: 'neue-alta-grotesk';
     src: url("../assets/fonts/NeueAlteGrotesk/NeueAlteGrotesk-Bold.ttf");
 }
+
 form {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 
 }
+
 img,
 img::after,
 img::before {
@@ -23,9 +25,11 @@ img::before {
     -webkit-app-region: no-drag;
     cursor: default;
 }
+
 button {
     cursor: pointer;
 }
+
 #tamanho {
     width: 100%;
     height: 100%;
@@ -172,15 +176,17 @@ a {
     flex-direction: column;
     border-left: 2px solid #72acd8;
     border-right: 2px solid #72acd8;
-    border-bottom: 2px solid  #72acd8;
+    border-bottom: 2px solid #72acd8;
     border-radius: 10px;
     padding: 20px;
 }
+
 .log-formulario input:focus {
     border: 1.5px solid #72acd8;
     border-radius: 25px;
     outline: none;
 }
+
 .log-formulario input {
     background: none;
     border: 1.5px solid #72acd8;
@@ -190,6 +196,7 @@ a {
     width: 280px;
     margin-top: 30px;
 }
+
 .log-formulario input::placeholder {
     color: #d1eafe;
     padding: 15px;
@@ -202,10 +209,12 @@ a {
     margin-top: 20px;
     margin-bottom: -10px;
 }
-.buttons-contato{ 
+
+.buttons-contato {
     margin-top: -12px;
     margin-bottom: 10px;
 }
+
 .login-btn {
     background-color: #bad341;
     border: none;
@@ -215,6 +224,7 @@ a {
     height: 30px;
     padding: 5px;
     margin-right: 7px;
+    font-size: 15px;
 }
 
 .register-btn {
@@ -225,7 +235,10 @@ a {
     color: white;
     height: 30px;
     padding: 5px;
+    font-size: 12.5px;
+
 }
+
 .form-icon {
     color: white;
     margin-top: -33px;
@@ -241,6 +254,7 @@ a {
     border-radius: 25px;
     height: 50px;
     color: white;
+    font-size: 15px;
 }
 
 .termo {
@@ -262,6 +276,7 @@ a {
     height: 13px;
     margin-top: 25px;
 }
+
 .termo input[type="checkbox"] {
     margin-top: 32px;
     margin-left: -50px;
@@ -276,21 +291,23 @@ a {
 }
 
 .bottom {
- margin-top: 20px;
+    margin-top: 20px;
 }
+
 .bottom .bottom-text {
-    color: #ffffff;  
+    color: #ffffff;
     font-size: 12.5px;
     margin-left: 20px;
     margin-right: 20px;
 }
-.bottom .bottom-line{
+
+.bottom .bottom-line {
     position: relative;
     margin-top: -12px;
     margin-left: -100px;
     width: 85px;
     border-color: #72acd8;
-    border: 1px solid #72acd8 ;
+    border: 1px solid #72acd8;
 }
 
 .bottom .bottom-line-right {
@@ -298,13 +315,14 @@ a {
     margin-right: -100px;
     width: 85px;
     border-color: #72acd8;
-    border: 1px solid #72acd8 ;
+    border: 1px solid #72acd8;
 }
 
 .social-icons-list {
     margin-top: 30px;
     display: flex;
 }
+
 .social-icons-list img {
     width: 20px;
     margin-right: 10px;
@@ -330,12 +348,13 @@ a {
     flex-direction: column;
     border-left: 2px solid #72acd8;
     border-right: 2px solid #72acd8;
-    border-bottom: 2px solid  #72acd8;
+    border-bottom: 2px solid #72acd8;
     border-radius: 10px;
     padding: 20px;
     margin-right: 700px;
 
 }
+
 .contato-form input {
     background: none;
     border: 1.5px solid #72acd8;
@@ -347,7 +366,7 @@ a {
     font-size: 15px;
 
 }
-    
+
 .contato-form input::placeholder {
     background: none;
     color: white;
@@ -357,23 +376,27 @@ a {
     margin-top: 30px;
     padding: 15px;
 }
-.contato-form input:focus{
+
+.contato-form input:focus {
     outline: 0;
 }
 
-.contato-form input#message-input{
+.contato-form input#message-input {
     height: 130px;
 }
-.contato-form #message-label{ 
-margin-top: -100px;
-margin-right: 180px;
-color: white;
-font-size: 15px;
+
+.contato-form #message-label {
+    margin-top: -100px;
+    margin-right: 180px;
+    color: white;
+    font-size: 15px;
 }
+
 .contato-form .button-bottom-contato {
     margin-top: 70px;
 
 }
+
 .contato-form .button-bottom-contato button {
     background-color: #bad341;
     border: none;
@@ -596,21 +619,175 @@ font-size: 15px;
     font-family: "neue-alta-grotesk";
     width: 120px;
 }
+
 /* Animações Das Imagens */
 
-.user1 img:hover{
+.user1 img:hover {
     transform: translateY(-20px);
     transition: all 0.5s;
 }
-.user2 img:hover{
+
+.user2 img:hover {
     transform: translateY(-20px);
     transition: all 0.5s;
 }
-.user3 img:hover{
+
+.user3 img:hover {
     transform: translateY(-20px);
     transition: all 0.5s;
 }
-.user4 img:hover{
+
+.user4 img:hover {
     transform: translateY(-20px);
     transition: all 0.5s;
+}
+
+@media screen and (max-width: 1440px) {
+    #menu {
+        margin-top: 25px;
+    }
+
+    #users {
+        margin-top: -25px;
+    }
+
+    #bg {
+        margin-top: 25px;
+    }
+
+    .user1 {
+        position: absolute;
+        background-color: #809ED4;
+        border-radius: 50%;
+        height: 125px;
+        width: 125px;
+        margin-top: 75px;
+        margin-left: 250px;
+
+    }
+
+    .user2 {
+        position: absolute;
+        background-color: #809ED4;
+        border-radius: 50%;
+        height: 125px;
+        width: 125px;
+        margin-top: 350px;
+        margin-left: 400px;
+    }
+
+    .user3 {
+        position: absolute;
+        background-color: #7599cd;
+        border-radius: 50%;
+        height: 125px;
+        width: 125px;
+        margin-top: 530px;
+        margin-left: 43em;
+    }
+
+    .user4 {
+        position: absolute;
+        background-color: #7599cd;
+        border-radius: 50%;
+        height: 125px;
+        width: 125px;
+        margin-top: 300px;
+        margin-left: 60em;
+    }
+
+    .card {
+        font-family: "neue-alta-grotesk";
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        margin-top: -20px;
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        line-height: 35.5px;
+        text-shadow: 2px 2px 20px #000000;
+        letter-spacing: 1px;
+        flex-wrap: wrap;
+    }
+
+    .card-btn {
+        border: none;
+        background-color: #343434;
+        border-radius: 10px;
+        height: 30px;
+        color: white;
+        font-family: "neue-alta-grotesk";
+        width: 120px;
+        margin-top: -5px;
+    }
+    .log-formulario {
+        margin-left: 480px;
+        display: flex;
+        margin-top: 80px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+        margin-top: 200px;
+    }
+    .termo {
+        margin-top: 30px;
+        display: flex;
+        width: 250px;
+        margin-left: -60px;
+        
+    }
+    .termo input[type=checkbox] {
+        margin-top: 2px;
+        margin-right: -120px;
+    }
+    #video iframe {
+    margin-top: 150px;
+    margin-left: 50px;
+    position: relative;
+    height: 53%;
+    width: 70%;
+}
+#video {
+    position: absolute;
+    margin-left: 240em;
+    margin-top: 150px;
+    background: url("../assets/paises/video.jpg") no-repeat;
+    background-size: contain;
+    height: 80%;
+    min-width: 1000px;
+    float: left;
+    width: auto;
+
+}
+.afri img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+    margin-left: 150em;
+    margin-top: 25px;
+}
+.aust img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+    margin-left: 290em;
+    margin-top: 25px;
+}
+.contato-form {
+    position: absolute;
+    margin-left: 400em;
+    margin-top: 250px;
+    display: flex;
+
+}
 }
