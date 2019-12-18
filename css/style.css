@@ -790,4 +790,14 @@ a {
     display: flex;
 
 }
+.user4 img  {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: -5px;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+}
+
 }
