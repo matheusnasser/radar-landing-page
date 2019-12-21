@@ -160,11 +160,11 @@ a {
 }
 
 .log-formulario {
-    margin-left: 250px;
+    margin-left: 200%;
     display: flex;
     margin-top: 80px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-    margin-top: 200px;
+    margin-top: 60%;
 }
 
 .log-formulario form {
@@ -261,8 +261,9 @@ a {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
     font-size: 12.5px;
     white-space: nowrap;
-    margin-left: -150px;
+    margin-left: -80%;
     font-weight: bold;
+    margin-top: 11%;
 }
 
 .termo label {
