@@ -53,7 +53,6 @@ button {
 #img {
     height: 100%;
     width: auto;
-    max-width: 100%;
     max-height: 100%;
     overflow: hidden;
     position: relative;
@@ -517,8 +516,8 @@ a {
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 80px;
-    margin-left: 320px;
+    margin-top: 5%;
+    margin-left: 15%;
 }
 
 
@@ -535,8 +534,8 @@ a {
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 450px;
-    margin-left: 480px;
+    margin-top: 22.5%;
+    margin-left: 22%;
 }
 
 .user2 img {
@@ -554,8 +553,8 @@ a {
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 600px;
-    margin-left: 52em;
+    margin-top: 32.5%;
+    margin-left: 40%;
 }
 
 .user3 img {
@@ -573,8 +572,8 @@ a {
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 350px;
-    margin-left: 70em;
+    margin-top: 20%;
+    margin-left: 55%;
 }
 
 .user4 img {
@@ -640,164 +639,4 @@ a {
 .user4 img:hover {
     transform: translateY(-20px);
     transition: all 0.5s;
-}
-
-@media screen and (max-width: 1440px) {
-    #menu {
-        margin-top: 25px;
-    }
-
-    #users {
-        margin-top: -25px;
-    }
-
-    #bg {
-        margin-top: 25px;
-    }
-
-    .user1 {
-        position: absolute;
-        background-color: #809ED4;
-        border-radius: 50%;
-        height: 125px;
-        width: 125px;
-        margin-top: 75px;
-        margin-left: 250px;
-
-    }
-
-    .user2 {
-        position: absolute;
-        background-color: #809ED4;
-        border-radius: 50%;
-        height: 125px;
-        width: 125px;
-        margin-top: 350px;
-        margin-left: 400px;
-    }
-
-    .user3 {
-        position: absolute;
-        background-color: #7599cd;
-        border-radius: 50%;
-        height: 125px;
-        width: 125px;
-        margin-top: 530px;
-        margin-left: 43em;
-    }
-
-    .user4 {
-        position: absolute;
-        background-color: #7599cd;
-        border-radius: 50%;
-        height: 125px;
-        width: 125px;
-        margin-top: 300px;
-        margin-left: 60em;
-    }
-
-    .card {
-        font-family: "neue-alta-grotesk";
-        text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-items: center;
-        justify-content: center;
-        margin-top: -20px;
-        font-size: 15px;
-        color: white;
-        font-weight: bold;
-        line-height: 35.5px;
-        text-shadow: 2px 2px 20px #000000;
-        letter-spacing: 1px;
-        flex-wrap: wrap;
-    }
-
-    .card-btn {
-        border: none;
-        background-color: #343434;
-        border-radius: 10px;
-        height: 30px;
-        color: white;
-        font-family: "neue-alta-grotesk";
-        width: 120px;
-        margin-top: -5px;
-    }
-    .log-formulario {
-        margin-left: 480px;
-        display: flex;
-        margin-top: 80px;
-        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-        margin-top: 200px;
-    }
-    .termo {
-        margin-top: 30px;
-        display: flex;
-        width: 250px;
-        margin-left: -60px;
-        
-    }
-    .termo input[type=checkbox] {
-        margin-top: 2px;
-        margin-right: -120px;
-    }
-    #video iframe {
-    margin-top: 150px;
-    margin-left: 30px;
-    position: relative;
-    height: 53%;
-    width: 70%;
-}
-#video {
-    position: absolute;
-    margin-left: 240em;
-    margin-top: 150px;
-    background: url("../assets/paises/video.jpg") no-repeat;
-    background-size: contain;
-    height: 80%;
-    min-width: 1000px;
-    float: left;
-    width: auto;
-
-}
-.afri img {
-    height: 100%;
-    width: auto;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-    position: absolute;
-    float: left;
-    margin-left: 150em;
-    margin-top: 25px;
-}
-.aust img {
-    height: 100%;
-    width: auto;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-    position: absolute;
-    float: left;
-    margin-left: 290em;
-    margin-top: 25px;
-}
-.contato-form {
-    position: absolute;
-    margin-left: 400em;
-    margin-top: 250px;
-    display: flex;
-
-}
-.user4 img  {
-    align-items: center;
-    text-align: center;
-    padding: 30px;
-    margin-top: -5px;
-    justify-content: center;
-    height: 80px;
-    width: 80px;
-}
-
 }
