@@ -160,7 +160,7 @@ a {
 }
 
 .log-formulario {
-    margin-left: 200%;
+    margin-left: 180%;
     display: flex;
     margin-top: 80px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
@@ -178,6 +178,7 @@ a {
     border-bottom: 2px solid #72acd8;
     border-radius: 10px;
     padding: 20px;
+
 }
 
 .log-formulario input:focus {
@@ -457,7 +458,7 @@ a {
     overflow: hidden;
     position: absolute;
     float: left;
-    margin-left: 150em;
+    margin-left: 150%;
 
 }
 
