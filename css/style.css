@@ -1,8 +1,8 @@
 body {
-    background: #6290b1;
+    background: rgb(51,147,223);
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    overflow-x: scroll;
     overflow-y: hidden;
     outline: 0;
 }
@@ -40,7 +40,7 @@ button {
 }
 
 #envolve {
-    min-width: 30000px;
+    min-width: 3000px;
     height: 100%;
     width: auto;
     max-width: 100%;
@@ -85,9 +85,11 @@ a {
     height: 100%;
     margin: 0;
     width: 62px;
-    background: rgba(73, 80, 82, 0.8);
+    background: rgba(31, 102, 160, 0.808);
+    
     z-index: 9;
     border-right: 8px solid #000000;
+    z-index: 70;
 }
 
 .opcao {
@@ -111,7 +113,6 @@ a {
 
 .opcao:hover>.img-menu {
     margin: -93px 10px 0 0;
-    transition: all 0.2s;
 
 }
 
@@ -123,7 +124,9 @@ a {
     left: 70px;
 
 }
-
+#img-menu {
+    background-color: 1F65A0;
+}
 #bg img {
     height: 100%;
     max-width: 100%;
@@ -135,7 +138,51 @@ a {
 #bg {
     transition: all 0.5s;
 }
+.mac {
+    position: absolute;
+    width: 350px;
+    margin-left: 140%;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+}
+.described  {
+    display: flex;
+    margin-left: -160%;
+    margin-top: -90%;
+    font-family: "neue-alta-grotesk";
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-transform: uppercase;
 
+}
+.mac img {
+    width: 45em;
+    margin-left: -80%;
+    margin-top: 60%;
+}
+.mac-text  {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.card-btn-mac-text {
+    font-size: 15px;
+}
+
+.card-btn-mac {
+    border: none;
+    background-color: #343434;
+    border-radius: 10px;
+    height: 50px;
+    color: white;
+    font-family: "neue-alta-grotesk";
+    width: 150px;
+    margin-left: -150%;
+
+}
 .main-login {
     float: right;
     width: 250px;
@@ -432,7 +479,7 @@ a {
     margin: 10px;
     position: relative;
     float: right;
-    background: #6b86a5;
+    background-color: #1F65A0;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -458,7 +505,8 @@ a {
     overflow: hidden;
     position: absolute;
     float: left;
-    margin-left: 150%;
+    margin-left: 160%;
+    z-index: 30;
 
 }
 
@@ -524,8 +572,9 @@ a {
 .user1 img {
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     justify-content: center;
+    width: 80px;
 }
 
 .user2 {
@@ -544,7 +593,9 @@ a {
     text-align: center;
     padding: 20px;
     justify-content: center;
-    height: 90px;
+    padding: 25px;
+    width: 80px;
+
 }
 
 .user3 {
@@ -563,7 +614,8 @@ a {
     padding: 20px;
     justify-content: center;
     height: 90px;
-    width: 90px;
+    padding: 25px;
+    width: 80px;
 }
 
 .user4 {
@@ -579,11 +631,9 @@ a {
 .user4 img {
     align-items: center;
     text-align: center;
-    padding: 30px;
-    margin-top: -5px;
     justify-content: center;
-    height: 90px;
     width: 90px;
+    padding: 25px;
 }
 
 .card {
@@ -618,6 +668,7 @@ a {
     font-family: "neue-alta-grotesk";
     width: 120px;
 }
+
 
 /* Animações Das Imagens */
 
