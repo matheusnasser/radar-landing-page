@@ -86,10 +86,8 @@ a {
     margin: 0;
     width: 62px;
     background: rgba(31, 102, 160, 0.808);
-    
-    z-index: 9;
     border-right: 8px solid #000000;
-    z-index: 70;
+    z-index: 1000000;
 }
 
 .opcao {
@@ -191,6 +189,7 @@ a {
 
 .users {
     transition: all 0.2s;
+    margin-left: 160%;
 }
 
 .scrolled {
@@ -485,7 +484,10 @@ a {
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-
+.aust {
+    position: absolute;
+    z-index: 0;
+}
 .aust img {
     height: 100%;
     width: auto;
@@ -496,7 +498,6 @@ a {
     float: left;
     margin-left: 350em;
 }
-
 .afri img {
     height: 100%;
     width: auto;
@@ -506,7 +507,7 @@ a {
     position: absolute;
     float: left;
     margin-left: 160%;
-    z-index: 30;
+
 
 }
 
@@ -553,19 +554,17 @@ a {
     margin: 3px 0 0 4px;
 }
 
-.user-wrapper {
-    margin-top: -40px;
-    margin-left: -120px;
-}
 
 .user1 {
     position: absolute;
-    background-color: #809ED4;
+    background-color: #1F65A0;
     border-radius: 50%;
     height: 135px;
     width: 135px;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 27%;
+    z-index: 999;
+
 }
 
 
@@ -579,12 +578,14 @@ a {
 
 .user2 {
     position: absolute;
-    background-color: #809ED4;
+    background-color: #1F65A0;
     border-radius: 50%;
     height: 135px;
     width: 135px;
     margin-top: 28%;
-    margin-left: 22%;
+    margin-left: 27%;
+    z-index: 999;
+
 }
 
 .user2 img {
@@ -600,12 +601,14 @@ a {
 
 .user3 {
     position: absolute;
-    background-color: #7599cd;
+    background-color: #1F65A0;
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 32.5%;
-    margin-left: 43.5%;
+    margin-top: 28%;
+    margin-left: 50%;
+    z-index: 999;
+
 }
 
 .user3 img {
@@ -620,12 +623,14 @@ a {
 
 .user4 {
     position: absolute;
-    background-color: #7599cd;
+    background-color: #1F65A0;
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 20%;
-    margin-left: 60%;
+    margin-top: 5%;
+    margin-left: 50%;
+    z-index: 999;
+
 }
 
 .user4 img {
@@ -634,6 +639,13 @@ a {
     justify-content: center;
     width: 90px;
     padding: 25px;
+}
+
+.users2 {
+    margin-left: 160%;
+}
+
+.user3 {
 }
 
 .card {
@@ -658,7 +670,16 @@ a {
     display: flex;
     margin-top: -2px;
 }
-
+.card-btn-user3 { 
+    border: none;
+    background-color: #343434;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    font-family: "neue-alta-grotesk";
+    width: 120px;
+    margin-top: 18%;
+}
 .card-btn {
     border: none;
     background-color: #343434;
