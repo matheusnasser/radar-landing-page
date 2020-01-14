@@ -101,6 +101,7 @@ a {
     border-bottom-left-radius: 40px;
     position: relative;
     float: left;
+    cursor: pointer;
 }
 
 .opcao:hover>.texto-menu {
