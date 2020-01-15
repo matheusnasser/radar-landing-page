@@ -1,5 +1,5 @@
 body {
-    background: rgb(51,147,223);
+    background: #0092de;
     padding: 0px;
     margin: 0px;
     overflow-x: scroll;
@@ -615,6 +615,7 @@ a {
     padding: 20px;
     justify-content: center;
     width: 150px;
+    margin-top: 10%;
 }
 
 .user4 {
@@ -674,7 +675,7 @@ a {
     margin-top: -20%;
     text-shadow: 2px 2px 20px #000000;
     flex-wrap: wrap;
-
+    margin-left: 15%;
 }
 
 .card-user2 {
@@ -692,6 +693,7 @@ a {
     margin-top: -20%;
     text-shadow: 2px 2px 20px #000000;
     flex-wrap: wrap;
+    margin-left: 40%;
 }
 .card-user3 {
     font-family: "neue-alta-grotesk";
@@ -708,6 +710,7 @@ a {
     margin-top: -20%;
     text-shadow: 2px 2px 20px #000000;
     flex-wrap: wrap;
+    margin-left: 40%;
 }
 
 .card-user4 {
@@ -722,14 +725,28 @@ a {
     color: white;
     font-weight: bold;
     line-height: 25px;
-    margin-top: -10%;
     margin-left: 10%;
     text-shadow: 2px 2px 20px #000000;
     flex-wrap: wrap; 
+    margin-top: -40%;
 }
+.user4 {
+    font-size: 12.5px;
 
-.card-user4 h1{
+}
+.user4 h1{
     margin-top: 30px;
+    color: white;
+    text-shadow: 2px 2px 20px #000000;
+    font-family: "neue-alta-grotesk";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25px;
+
+
+
+
+
 }
 
 .btn {
@@ -756,5 +773,61 @@ a {
     width: 120px;
 }
 
+.hidden{
+    display: none;
+  }
+
+  
+.info-box  {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-left: 195%;
+    margin-top: 15%;
+    height: 150px;
+    width: 350px;
+    z-index: 99999;
+    display: flex;
+   
+}
+
+.card-header {
+    background-color: #0092de;
+    height: 25px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.card-txt {
+    position: absolute;
+    margin-top: -5%;
+    font-family: "neue-alta-grotesk";
+    color: #ffffff;
+    text-transform: uppercase;
+    float: left;
 
 
+}
+#produtor-img {
+    width: 30%;
+    height: auto;
+    margin-top: -18%;
+    margin-left: 10%;
+    text-align: center;    
+}
+
+#produtor-img img{
+    
+}
+.card-img {
+    width: auto;
+    height: auto;
+
+}
+
+.buttons-users {
+    position: absolute;
+    margin-left: 150%;
+}
