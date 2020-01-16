@@ -161,7 +161,7 @@ a {
 }
 
 .mac img:hover {
-    transform: translateY(-2px);
+    transform: translateY(-15px);
     transition: all 0.6s;
 }
 .described  {
@@ -207,6 +207,11 @@ a {
     margin-left: -270%;
 
 }
+
+.card-btn-mac:hover {
+    transform: translateY(-3px);
+    transition: all 0.6s;
+}
 .main-login {
     float: right;
     width: 250px;
@@ -214,7 +219,9 @@ a {
 }
 
 
-
+.oportunidade  {
+    
+}
 
 
 .teste .login img {
@@ -673,7 +680,6 @@ a {
 
 
 .card-description  {
-    text-align: center;
     color: black;
 
    
@@ -682,4 +688,20 @@ a {
 .card-description p {
     font-size: 12px;
     font-family: "Nunito", sans-serif;
+    text-align: center;
+
+}
+
+.produtor  {
+    position: absolute;
+    margin-left: 210%;
+    display: flex;
+
+}
+
+
+
+.produtor img   {
+    width: 500px;
+    margin-left: 150%;
 }
