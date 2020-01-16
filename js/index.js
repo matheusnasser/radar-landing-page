@@ -17,28 +17,44 @@ $(function() {
 //produtor
 
   $(document).ready(function(){
-	$("#btn-produtor").click(function(){
-	  $("#produtor").fadeIn(1500,() => {
-		  $("#produtor-txt").fadeIn(500).removeClass("hidden");
+	$("#produtor-img").hover(function(){
+	  $("#user1").slideDown(1000,() => {
+		  $("#produtor-txt").fadeIn(500);
 	  });
 
 	});
-  });
-
-  $(document).ready(function() {
-	  $("#span-close-produtor").click(function() { 
-		  $("#produtor").fadeOut(1500);
-	  })
   })
 
-//cooperativa
-  $(document).ready(function() { 
-	  $("#cooperativa-btn").click(function() {
-		  $("#cooperativa").fadeIn(1500, () => {
-			  $("#cooperativa-txt").fadeIn(500).removeClass("hidden");
+  
+  
+  $(document).ready(function(){
+	$("#cooperativa-img").hover(function(){
+	  $("#user2").slideDown(1000,() => {
+		  $("#cooperativa-txt").fadeIn(500)
+	  });
+
+	});
+  })
+
+
+  $(document).ready(() => {
+	  $("#industria-img").hover(() => {
+		  $("#user3").slideDown(1000, () => {
+			  $("#industria-txt").fadeIn(500)
 		  })
 	  })
   })
+
+
+  $(document).ready( () => {
+	  $("#corretora-img").hover( () => {
+		  $("#user4").slideDown(1000, () => {
+			  $("#corretora-txt").fadeIn(500);
+		  })
+	  })
+  })
+  
+ 
 
   $(document).ready(function() {
 	$("#span-close-cooperativa").click(function() { 
@@ -47,18 +63,3 @@ $(function() {
 })
 
 
-//industria
-
-$(document).ready(function() { 
-	$("#industria-btn").click(function() {
-		$("#industria").fadeIn(1500, () => {
-			$("#industria-txt").fadeIn(500).removeClass("hidden");
-		})
-	})
-})
-
-$(document).ready(function() {
-  $("#span-close-industria").click(function() { 
-	  $("#industria").fadeOut(1500);
-  })
-})
