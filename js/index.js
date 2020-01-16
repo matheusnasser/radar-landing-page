@@ -14,6 +14,7 @@ $(function() {
     }
 })
   
+//produtor
 
   $(document).ready(function(){
 	$("#btn-produtor").click(function(){
@@ -30,7 +31,7 @@ $(function() {
 	  })
   })
 
-
+//cooperativa
   $(document).ready(function() { 
 	  $("#cooperativa-btn").click(function() {
 		  $("#cooperativa").fadeIn(1500, () => {
@@ -43,4 +44,21 @@ $(function() {
 	$("#span-close-cooperativa").click(function() { 
 		$("#cooperativa").fadeOut(1500);
 	})
+})
+
+
+//industria
+
+$(document).ready(function() { 
+	$("#industria-btn").click(function() {
+		$("#industria").fadeIn(1500, () => {
+			$("#industria-txt").fadeIn(500).removeClass("hidden");
+		})
+	})
+})
+
+$(document).ready(function() {
+  $("#span-close-industria").click(function() { 
+	  $("#industria").fadeOut(1500);
+  })
 })
