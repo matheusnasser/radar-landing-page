@@ -10,6 +10,8 @@
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/a6ffc5d72a96b65159e710ea6d258ba4?family=Menlo" rel="stylesheet" type="text/css"/> 
     <title>Radar</title>
     
 </head>
@@ -35,7 +37,7 @@
     </div>
     <div class="wrapper" id="wrapper">
     <div id="bg">
-        <img src="assets/radar 3.png">
+        <img src="assets/teste.jpg">
     </div>
 
     <div class="mac">
@@ -51,31 +53,25 @@
     </div> 
 
 
-   <div class="buttons-users">
-    <button type="button" id="btn-produtor" class="card-btn">TEste</button>
        
-   </div>
 
-    <!-- <div class="users" >    
+     <div class="users" >    
 
-        <div class="user1-description" style="display: none;">
-            <h1>Hello World</h1>
-        </div>
             <div class="user1 user">
-                <img src="assets/jesus.png" class="produtorimg">
+                <img src="assets/iconesusers/PRODUTOR RURAL.png" class="produtorimg">
                 <div class="card-user1">
                     <h1>Produtor Rural</h1>
                     <div class="btn">
-                        <button type="button" id="myBtn" class="card-btn">SAIBA MAIS </button>
+                        <button type="button" id="btn-produtor" class="card-btn">SAIBA MAIS </button>
                     </div>
                 </div>
             </div>
             <div class="user2 user" >
-                <img src="assets/jesus.png" class="produtorimg">
+                <img src="assets/iconesusers/COOPERATIVA.png" class="produtorimg">
                 <div class="card-user2">
                     <h1>Cooperativa</h1>
                     <div class="btn">
-                        <button type="button" class="card-btn">SAIBA MAIS </button>
+                        <button type="button" class="card-btn" id="cooperativa-btn">SAIBA MAIS </button>
                     </div>
                 </div>
             </div>
@@ -85,40 +81,58 @@
 
         
             <div class="user3 user">
-                <img src="assets/jesus.png" class="produtorimg">
+                <img src="assets/iconesusers/INDUSTRIA.png" class="produtorimg">
                 <div class="card-user3">
                     <h1>INDUSTRIA</h1>
                     <div class="btn">
-                        <button type="button" class="card-btn">SAIBA MAIS </button>
+                        <button type="button" class="card-btn" id="industria-btn">SAIBA MAIS </button>
                     </div>
                 </div>
             </div>
             <div class="user4 user">
-                <img src="assets/jesus.png" class="produtorimg">
-                <h1>CORRETORA</h1>
+                <img src="assets/iconesusers/CORRETORA.png" class="produtorimg">
+                <h1 style="margin-top: 5%; margin-bottom: 20%;">CORRETORA</h1>
 
                 <div class="card-user4">
                     <div class="btn">
-                        <button type="button" class="card-btn-user3">SAIBA MAIS </button>
+                        <button type="button" class="card-btn-user3" id="corretora-btn">SAIBA MAIS </button>
                     </div>
                 </div>
                 </div>
-    </div> -->
+    </div> 
 
     <div class="info-box" id="produtor" style="display: none;">
        <div class="card-header">
            <div class="card-txt">
             <h4>Produtor Rural</h4>
+            <span class="close" id="span-close-produtor">X</span>
            </div>
            <div class="card-img">
-            <img src="assets/jesus.png" id="produtor-img">
+            <img src="assets/iconesusers/PRODUTOR RURAL.png" id="produtor-img">
 
            </div>
            <div class="card-description">
-               <p class="hidden" id="produtor-txt">O produtor rural ira poder realizar publicações diarias.</p>
+               <p class="hidden" id="produtor-txt">Você poderá visualizar oportunidades para comprar os insumos com os melhores preços, publicar seus produtos para venda e localizar indústrias, corretoras e outros produtores rurais que estão ao seu redor.</p>
            </div>
        </div>
     </div>
+</div>
+
+<div class="info-box" id="cooperativa" style="display: none;">
+    <div class="card-header">
+        <div class="card-txt">
+         <h4>Cooperativa</h4>
+         <span class="close" id="span-close-cooperativa">X</span>
+        </div>
+        <div class="card-img">
+         <img src="assets/iconesusers/COOPERATIVA.png " id="produtor-img">
+
+        </div>
+        <div class="card-description">
+            <p class="hidden" id="cooperativa-txt">Unir forças é o seu forte, por isso a plataforma reúne para você as melhores ofertas para negociar com rapidez e assertividade, a fim de fazer negócios ainda melhores, unindo forças em uma única plataforma que potencializa compras e vendas de produtos agrícolas.</p>
+        </div>
+    </div>
+ </div>
 </div>
     <div class="aust" >
         <img src="assets/paises/australia.jpg" id="aust">
@@ -127,7 +141,7 @@
             <iframe id="vid" frameborder="0" src="https://www.youtube.com/embed/EjJyomfzcc8?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=1&amp;rel=0&amp;fs=1&amp;playsinline=0&amp;autohide=2&amp;theme=dark&amp;color=red&amp;controls=0&amp;" title="YouTube player" allow="autoplay; encrypted-media" allowfullscreen="" data-no-lazy="1" data-skipgform_ajax_framebjll=""></iframe>
     </div>
     <div class="afri">
-        <img src="assets/paises/africav2.png">
+        <img src="assets/paises/africa.jpg">
         </div>  
         <div class="contato-form" id="contato">
                

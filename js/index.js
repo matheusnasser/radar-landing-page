@@ -8,7 +8,11 @@ $(function() {
 	  event.preventDefault();
 	});
   });
-
+  $(document).keydown(function(objEvent) {
+    if (objEvent.keyCode == 9) { 
+        objEvent.preventDefault();
+    }
+})
   
 
   $(document).ready(function(){
@@ -20,4 +24,23 @@ $(function() {
 	});
   });
 
+  $(document).ready(function() {
+	  $("#span-close-produtor").click(function() { 
+		  $("#produtor").fadeOut(1500);
+	  })
+  })
 
+
+  $(document).ready(function() { 
+	  $("#cooperativa-btn").click(function() {
+		  $("#cooperativa").fadeIn(1500, () => {
+			  $("#cooperativa-txt").fadeIn(500).removeClass("hidden");
+		  })
+	  })
+  })
+
+  $(document).ready(function() {
+	$("#span-close-cooperativa").click(function() { 
+		$("#cooperativa").fadeOut(1500);
+	})
+})

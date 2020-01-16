@@ -1,12 +1,14 @@
 body {
-    background: #0092de;
+    background: #3399F4;
     padding: 0px;
     margin: 0px;
     overflow-x: scroll;
     overflow-y: hidden;
     outline: 0;
 }
-
+* {
+    outline: 0;
+}
 @font-face {
     font-family: 'neue-alta-grotesk';
     src: url("../assets/fonts/NeueAlteGrotesk/NeueAlteGrotesk-Bold.ttf");
@@ -16,6 +18,14 @@ form {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 
 }
+
+
+@font-face {
+    font-family: 'Menlo Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Menlo Regular'), url("../assets/fonts/menlo-cufonfonts-webfont/Menlo-Regular.woff") format('woff');
+    }
 
 img,
 img::after,
@@ -558,9 +568,11 @@ a {
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 5%;
-    margin-left: 27%;
+    margin-top: 3%;
+    margin-left: 20%;
     z-index: 999;
+    font-family: 'Menlo';
+
 
 }
 
@@ -581,9 +593,11 @@ a {
     border-radius: 50%;
     height: 135px;
     width: 135px;
-    margin-top: 28%;
-    margin-left: 27%;
+    margin-top: 30%;
+    margin-left: 18%;
     z-index: 999;
+    font-family: 'Menlo';
+
 
 }
 
@@ -606,6 +620,8 @@ a {
     margin-top: 28%;
     margin-left: 50%;
     z-index: 999;
+    font-family: 'Menlo';
+
 
 }
 
@@ -619,12 +635,13 @@ a {
 }
 
 .user4 {
+    font-family: 'Menlo';
     position: absolute;
     border-radius: 50%;
     height: 135px;
     width: 135px;
     margin-top: 5%;
-    margin-left: 50%;
+    margin-left: 65%;
     z-index: 999;
 
 }
@@ -642,7 +659,7 @@ a {
 
 
 .card {
-    font-family: "neue-alta-grotesk";
+    font-family: 'Menlo';
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -656,12 +673,15 @@ a {
     margin-top: -20%;
     text-shadow: 2px 2px 20px #000000;
     flex-wrap: wrap;
+
 }
 
 
-
+#sonar {
+    width: 25%;
+}
 .card-user1{
-    font-family: "neue-alta-grotesk";
+    font-family: 'Menlo';
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -679,7 +699,7 @@ a {
 }
 
 .card-user2 {
-    font-family: "neue-alta-grotesk";
+    font-family: 'Menlo';
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -696,7 +716,7 @@ a {
     margin-left: 40%;
 }
 .card-user3 {
-    font-family: "neue-alta-grotesk";
+    font-family: 'Menlo';
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -714,7 +734,7 @@ a {
 }
 
 .card-user4 {
-    font-family: "neue-alta-grotesk";
+    font-family: 'Menlo';
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -724,6 +744,7 @@ a {
     font-size: 12.5px;
     color: white;
     font-weight: bold;
+    font-style: italic;
     line-height: 25px;
     margin-left: 10%;
     text-shadow: 2px 2px 20px #000000;
@@ -742,6 +763,8 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 25px;
+    font-family: 'Menlo Regular';
+
 
 
 
@@ -784,10 +807,10 @@ a {
     border-radius: 30px;
     margin-left: 195%;
     margin-top: 15%;
-    height: 150px;
     width: 350px;
     z-index: 99999;
     display: flex;
+    height: 200px;
    
 }
 
@@ -807,8 +830,13 @@ a {
     color: #ffffff;
     text-transform: uppercase;
     float: left;
+    margin-left: 5px;
+    text-align: center;
 
 
+}
+
+.corretora-txt {
 }
 #produtor-img {
     width: 30%;
@@ -824,10 +852,59 @@ a {
 .card-img {
     width: auto;
     height: auto;
+    margin-left: 10px;
+
+}
+#produtor-txt{
+    font-family: 'Nunito', sans-serif;
 
 }
 
+#cooperativa-txt {
+    font-family: "Nunito", sans-serif;
+}
+.card-description  {
+    margin-top: -5%;
+    padding: 0 10px;
+    height: auto;
+    text-align: justify;
+}
 .buttons-users {
     position: absolute;
-    margin-left: 150%;
+    margin-left: 180%;
+    margin-top: 20%;
+    width: 500px;
+    height: 500px;
+    z-index: 99999;
+
+}
+#btn-produtor  {
+    position: absolute;
+    z-index: 99999;
+    margin-top: 2%;
+    margin-left: -45%;
+    }
+
+#corretora-btn {
+    z-index: 99999;
+    margin-top: 50%;
+}
+#span-close-produtor  {
+    color: black;
+    float: right;
+    position: absolute;
+    margin-left: 175%;
+    margin-top: -28%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#span-close-cooperativa  {
+    color: black;
+    float: right;
+    position: absolute;
+    margin-left: 240%;
+    margin-top: -37%;
+    font-size: 18px;
+    cursor: pointer;
 }
