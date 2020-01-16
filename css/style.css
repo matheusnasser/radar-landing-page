@@ -536,11 +536,8 @@ a {
 .aust img {
     height: 100%;
     width: auto;
-    max-width: 100%;
-    max-height: 100%;
     position: absolute;
-    float: left;
-    margin-left: 350em;
+    margin-left: 400%;
 }
 .afri img {
     height: 100%;
@@ -703,5 +700,5 @@ a {
 
 .produtor img   {
     width: 500px;
-    margin-left: 150%;
+    margin-left: 230%;
 }
