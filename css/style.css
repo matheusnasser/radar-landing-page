@@ -673,8 +673,11 @@ a {
     width: 100%;
     background-color: #3399F4;
     border-radius: 5%;
-}
+    display: flex;
+    justify-content: center;    
+    text-align: center;
 
+}
 
 .card-description  {
     color: black;
@@ -698,7 +701,73 @@ a {
 
 
 
-.produtor img   {
+.produtor #produtor   {
     width: 500px;
-    margin-left: 230%;
+    margin-left: 130%;
+}
+
+.produtor #corretor {
+    width: 500px;
+    position: absolute;
+    margin-left: 220%;
+}
+
+
+#produtor-close-span {
+    color: white;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+
+#produtor-close-span img { 
+   width: 15px;
+    float: right;
+    margin-right: 5%;
+
+}
+#cooperativa-close-span {
+    color: white;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+
+#cooperativa-close-span img { 
+    width: 15px;
+    float: right;
+    margin-right: 5%;
+}
+
+
+
+#industria-close-span {
+    color: white;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+
+#industria-close-span img { 
+    width: 15px;
+    float: right;
+    margin-right: 5%;
+}
+
+
+#corretora-close-span {
+    color: white;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+
+#corretora-close-span img { 
+    width: 15px;
+    float: right;
+    margin-right: 5%;
 }

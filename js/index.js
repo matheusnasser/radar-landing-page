@@ -57,8 +57,26 @@ $(function() {
  
 
   $(document).ready(function() {
-	$("#span-close-cooperativa").click(function() { 
-		$("#cooperativa").fadeOut(1500);
+	$("#produtor-close-span").click(function() { 
+		$("#user1").slideUp(1500);
+	})
+})
+
+
+$(document).ready(function() {
+	$("#cooperativa-close-span").click(function() { 
+		$("#user2").slideUp(1500);
+	})
+})
+
+$(document).ready(function() {
+	$("#industria-close-span").click(function() { 
+		$("#user3").slideUp(1500);
+	})
+})
+$(document).ready(function() {
+	$("#corretora-close-span").click(function() { 
+		$("#user4").slideUp(1500);
 	})
 })
 
