@@ -18,7 +18,7 @@ $(function() {
 
   $(document).ready(function(){
 	$("#produtor-img").hover(function(){
-	  $("#user1").slideDown(1000,() => {
+	  $("#user1").slideDown(500,() => {
 		  $("#produtor-txt").fadeIn(500);
 	  });
 
@@ -29,7 +29,7 @@ $(function() {
   
   $(document).ready(function(){
 	$("#cooperativa-img").hover(function(){
-	  $("#user2").slideDown(1000,() => {
+	  $("#user2").slideDown(500,() => {
 		  $("#cooperativa-txt").fadeIn(500)
 	  });
 
@@ -39,7 +39,7 @@ $(function() {
 
   $(document).ready(() => {
 	  $("#industria-img").hover(() => {
-		  $("#user3").slideDown(1000, () => {
+		  $("#user3").slideDown(500, () => {
 			  $("#industria-txt").fadeIn(500)
 		  })
 	  })
@@ -48,7 +48,7 @@ $(function() {
 
   $(document).ready( () => {
 	  $("#corretora-img").hover( () => {
-		  $("#user4").slideDown(1000, () => {
+		  $("#user4").slideDown(500, () => {
 			  $("#corretora-txt").fadeIn(500);
 		  })
 	  })
@@ -58,25 +58,25 @@ $(function() {
 
   $(document).ready(function() {
 	$("#produtor-close-span").click(function() { 
-		$("#user1").slideUp(1500);
+		$("#user1").slideUp(250);
 	})
 })
 
 
 $(document).ready(function() {
 	$("#cooperativa-close-span").click(function() { 
-		$("#user2").slideUp(1500);
+		$("#user2").slideUp(250);
 	})
 })
 
 $(document).ready(function() {
 	$("#industria-close-span").click(function() { 
-		$("#user3").slideUp(1500);
+		$("#user3").slideUp(250);
 	})
 })
 $(document).ready(function() {
 	$("#corretora-close-span").click(function() { 
-		$("#user4").slideUp(1500);
+		$("#user4").slideUp(250);
 	})
 })
 

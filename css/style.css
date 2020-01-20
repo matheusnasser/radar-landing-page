@@ -664,14 +664,15 @@ a {
 .card h1 {
     font-size: 18px;
     text-align: center;
-    font-family: "Nunito", sans-serif;
-
+    font-family: "Menlo";
+    text-transform: uppercase;
+    font-style: italic;
 }
 
 
 .card-title {
     width: 100%;
-    background-color: #3399F4;
+    background-color: #14569F   ;
     border-radius: 5%;
     display: flex;
     justify-content: center;    
